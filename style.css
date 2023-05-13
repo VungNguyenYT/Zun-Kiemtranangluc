@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --mau-cam: orange;
+    --mau-den: black;
+
+    --mau-chu: white;
+}
+
+/* ====================================== */
+.container-wrap{
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+
+    background-color: orange;
+}
+
+.content{
+    display: flex;
+
+    width: 100%;
+    height: 80%;
+
+    background-color: white;
+}
+
+.menu-trai{
+    width: 10%;
+    height: 100%;
+
+    background-color: black;
+}
+
+.noidung-chinh{
+    width: 90%;
+    height: 100%;
+}
+
+.footer{
+    width: 100%;
+    height: 10%;
+
+    background-color: orange;
+}
+
+
