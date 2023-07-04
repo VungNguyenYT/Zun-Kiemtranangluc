@@ -20,36 +20,54 @@
     width: 100%;
     height: 10%;
 
-    background-color: orange;
+    color: white;
+    background-color: #393939;
 }
 .nut{
     display: flex;
     width: 80%;
     height: 50%;
+    
+}
 
+.chu{
+    padding: 3px;
+
+    
 }
 
 .storename{
+    width: 100vw;
+    height: 50%;
+
     text-align: center;
-    padding: 2px;
+    padding-top: 5px;
+
+    color: white;
+    background-color: black;
 }
 
 /* ================================== */
+.banner{
+    width: 100%;
+    height: 10%;
 
+    background-color: #f8ff2f;
+}
 .content{
     display: flex;
 
     width: 100%;
-    height: 80%;
+    height: 70%;
 
-    background-color: white;
+    background-color: black;
 }
 
 .menu-trai{
     width: 10%;
     height: 100%;
 
-    background-color: black;
+    background-color: white;
 }
 
 .noidung-chinh{
