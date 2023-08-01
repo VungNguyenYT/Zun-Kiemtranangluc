@@ -60,7 +60,7 @@
 }
 
 .left-but{
-    width: 40%;
+    width: 20%;
     height: 100%;
 }
 
@@ -74,11 +74,23 @@
     }
 
 .right-but{
-    width: 60%;
+    width: 80%;
     height: 100%;
 
     display: flex;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container-but{
+    width: 80%;
+    height: 100%;
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: blue; */
+    
 }
 
 .but1{
@@ -87,6 +99,7 @@
     border-right: 1px solid white;
 } .but1:hover{
         background-color: gray;
+        font-size: larger;
     }
 
 .but2{
@@ -95,6 +108,7 @@
     border-right: 1px solid white; 
 } .but2:hover{
         background-color: gray;
+        font-size: larger;
     }
 
 .but3{
@@ -103,6 +117,7 @@
     border-right: 1px solid white; 
 } .but3:hover{
         background-color: gray;
+        font-size: larger;
     }
 
 .but4{
@@ -111,6 +126,7 @@
     border-right: 1px solid white; 
 } .but4:hover{
         background-color: gray;
+        font-size: larger;
     }
 
 .but5{
@@ -119,18 +135,20 @@
     border-right: 1px solid white; 
 } .but5:hover{
         background-color: gray;
+        font-size: larger;
     }
 
 .but6{
     width: 15%;
     text-align: center;
-    border-right: 1px solid white; 
+    /* border-right: 1px solid white;  */
 } .but6:hover{
         background-color: gray;
+        font-size: larger;
     }
 
 .cart{
-    margin-left: 3%;
+    margin-left: 15%;
     display: flex; 
     justify-content: center; 
     align-items: center;
