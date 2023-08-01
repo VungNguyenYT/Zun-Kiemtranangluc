@@ -17,69 +17,125 @@
 }
 
 .header{
-    width: 100%;
+    width: 100vw;
     height: 10%;
 
-    color: white;
-    background-color: #393939;
-}
-.nut{
     display: flex;
-    width: 80%;
-    height: 50%;
-    
+    color: white;
+    /* background-color: #393939; */
 }
 
-.chu{
-    padding: 3px;
+.logo{
+    width: 5%; 
+    height: 100%;
 
-    
+    background-color: red;
+}
+.main-narbar{
+    width: 95%;
 }
 
 .storename{
-    width: 100vw;
+    width: 100%;
     height: 50%;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding-top: 5px;
 
-    color: white;
-    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    color: black;
+    /* background-color: black; */
 }
 
-/* ================================== */
-.banner{
+.f-button{
     width: 100%;
-    height: 10%;
+    height: 50%;
 
-    background-color: #f8ff2f;
-}
-.content{
     display: flex;
 
-    width: 100%;
-    height: 70%;
-
     background-color: black;
 }
 
-.menu-trai{
-    width: 10%;
-    height: 100%;
-
-    background-color: white;
-}
-
-.noidung-chinh{
-    width: 90%;
+.left-but{
+    width: 40%;
     height: 100%;
 }
 
-.footer{
-    width: 100%;
-    height: 10%;
+.trangchu{
+    width: 15%;
+    text-align: center;
+    /* border-right: 1px solid white; */
+} .trangchu:hover{
+        background-color: lightcoral;
 
-    background-color: orange;
+    }
+
+.right-but{
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.but1{
+    width: 15%;
+    text-align: center;
+    border-right: 1px solid white;
+} .but1:hover{
+        background-color: gray;
+    }
 
+.but2{
+    width: 15%;
+    text-align: center;
+    border-right: 1px solid white; 
+} .but2:hover{
+        background-color: gray;
+    }
+
+.but3{
+    width: 15%;
+    text-align: center;
+    border-right: 1px solid white; 
+} .but3:hover{
+        background-color: gray;
+    }
+
+.but4{
+    width: 15%;
+    text-align: center;
+    border-right: 1px solid white; 
+} .but4:hover{
+        background-color: gray;
+    }
+
+.but5{
+    width: 15%;
+    text-align: center;
+    border-right: 1px solid white; 
+} .but5:hover{
+        background-color: gray;
+    }
+
+.but6{
+    width: 15%;
+    text-align: center;
+    /* border-right: 1px solid white;  */
+} .but6:hover{
+        background-color: gray;
+    }
+
+.trangchu{
+    width: 15%;
+    height: 100%;
+
+    text-align: center;
+
+    color: white;
+    background-color: gray;
+}
+/* ================================== */
