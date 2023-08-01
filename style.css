@@ -124,11 +124,17 @@
 .but6{
     width: 15%;
     text-align: center;
-    /* border-right: 1px solid white;  */
+    border-right: 1px solid white; 
 } .but6:hover{
         background-color: gray;
     }
 
+.cart{
+    margin-left: 3%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
 .trangchu{
     width: 15%;
     height: 100%;
