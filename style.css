@@ -12,12 +12,12 @@
 
 /* ====================================== */
 .container-wrap{
-    width: 90vw;
+    width: 100%;
     height: 100vh;
 }
 
 .header{
-    width: 100vw;
+    width: 100%;
     height: 10vh;
 
     display: flex;
@@ -166,7 +166,7 @@
 /* ================================== */
 .container-slider{
     margin-top: 5vh;
-    width: 100vw;
+    width: 100%;
     height: 75vh;
 
     background-color: black;
@@ -180,7 +180,7 @@
     
     /* background-color: lightgray; */
 }
-img{
+.cont-slide img{
     width: 100%;
     height: 100%;
 }
@@ -209,14 +209,58 @@ img{
 
 .slide-heading{
 
-    width: 100vw;
-    height: 10vh;
+    width: 100%;
+    height: 10%;
 
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
 
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
+
+/* ===================================== */
+.DM-giay{
+    margin-top: 5%;
+    width: 100%;
+    height: 90%;
+
+    background-color: red;
+}
+.sL-area{
+    width: 50%;
+    height: 100%;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    background-color: blueviolet;
+}
+.sT-area{
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    color: black;
+
+
+}
+
+.chu-shoes{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    color: white;
+}
+.sL-area img{
+    width: 100%;
+    height: 100%;
+}
+/* ======================================= */
